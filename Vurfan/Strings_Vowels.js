@@ -7,7 +7,7 @@ function CountVowels(text) {
       count++;
     }
   }
-  console.log(`The text contains ${counter} of vowels `);
+  console.log(`The text contains ${count} of vowels `);
   return count;
 }
 
