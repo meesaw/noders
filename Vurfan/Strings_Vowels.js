@@ -10,12 +10,13 @@ function CountVowels(text) {
   console.log(`The text contains ${count} of vowels `);
   return count;
 }
+let string = prompt("Enter the input :");
+let result = CountVowels(string);
 
 //!========Another example==================
 
-let countVowels = str => Array.from(str)
-  .filter(letter => 'aeiou'.includes(letter)).length;
-console.log(countVowels('abcdefghijklmnopqrstuvwxyz')); // 5
-console.log(countVowels('test')); // 1
-console.log(countVowels('ddd')); // 0
-
+let countVowels = (str) =>
+  Array.from(str).filter((letter) => "aeiou".includes(letter)).length;
+console.log(countVowels("abcdefghijklmnopqrstuvwxyz")); // 5
+console.log(countVowels("test")); // 1
+console.log(countVowels("ddd")); // 0
