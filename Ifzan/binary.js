@@ -1,14 +1,12 @@
 function binary (arr,x,y,find)
 {
-    if(Array.isArray(arr) !== true)
+    try
     {
-    console.log('Invalid');
-    }
-    else if(x>y)
-    {
-    console.log("ARRAY EMPTY");
-    }
-    else
+    if(!Array.isArray(arr) || !arr.length) throw 'INVALID';
+}
+catch (err)
+{ console.log(err);}
+
     {
         let m = Math.floor((x+y)/2);
 
@@ -27,5 +25,5 @@ function binary (arr,x,y,find)
     }
 }
        
-let a = [1,200,19,15,100,95,2,43,49,77];
+let a = [];
 binary(a.sort(function(u, v){return u - v;}),0,a.length-1,100);
