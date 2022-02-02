@@ -1,19 +1,16 @@
 class Student {
-  constructor() {
-    let Name;
-    let Marks;
-  }
+  constructor(name, marks) {}
   getName() {
-    return this.Name;
+    return this.name;
   }
-  setName(Name) {
-    this.Name = Name;
+  setName(name) {
+    this.name = name;
   }
   getMarks() {
-    return this.Marks;
+    return this.marks;
   }
-  setMarks(Marks) {
-    this.Marks = Marks;
+  setMarks(marks) {
+    this.marks = marks;
   }
 }
 let student = new Student("Vurfan", 90);
