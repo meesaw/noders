@@ -5,7 +5,7 @@ class Student{
     }
     
   }
-  class LawStudent extends student
+  class LawStudent extends Student
   {
     constructor(name,id,marks){
         super(name,id);
