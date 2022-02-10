@@ -9,13 +9,13 @@ class Employee {
   }
 }
 
-class Comapany extends Employee {
+class Person extends Employee {
   constructor(name, age, gender, designation, location, skills, com_name) {
     super(name, age, gender, designation, location, skills);
     this.comapany_name = com_name;
   }
 }
-let myDetails = new Comapany(
+let person_Details = new Person(
   "SdVurfanHussainy",
   24,
   "Male",
@@ -24,4 +24,6 @@ let myDetails = new Comapany(
   ["WebTechnology", "JavaScript", "reactJs", "MongoDb"],
   "Deloitte"
 );
-console.log(myDetails);
+console.log(person_Details);
+
+
