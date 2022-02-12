@@ -8,7 +8,7 @@ class Student{
   class LawStudent extends Student
   {
     constructor(name,id,marks){
-        super(name,id);
+        super(name,id); 
         this.marks=marks;
     }
     
