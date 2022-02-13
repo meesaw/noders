@@ -20,7 +20,7 @@ class Employee
         }
     }
 }
-let abc = new Employee('John', 'Cena', '123', 'USA', '12345');
-let def = new Employee('Vikas', 'Kumar', '0', 'IND', '67890');
+let abc = new Employee('John', 'Cena', 123, 'USA', 12345);
+let def = new Employee('Vikas', 'Kumar', 0, 'IND', 67890);
 console.log(abc);
 console.log(def.checkemp());

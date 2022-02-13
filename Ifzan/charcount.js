@@ -23,7 +23,7 @@ function abc(q)
         }
         if(a>0)
         {
-            console.log(`${q[i]} occurs ${a} times`);
+            console.log(m);
         }
     }
 }
